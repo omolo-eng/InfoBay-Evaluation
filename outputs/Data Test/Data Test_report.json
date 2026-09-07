@@ -1,0 +1,230 @@
+{
+  "repo": "Data Test",
+  "target_path": "C:\\Users\\OmoloB\\Documents\\OBR\\Data Test",
+  "mode": "full",
+  "is_git": false,
+  "ground_truth": {
+    "git": {
+      "commit_count": 0,
+      "unique_contributors": 0,
+      "branch_count": 0,
+      "meaningful_commit_count": 0,
+      "last_update": null,
+      "first_commit": null,
+      "active_span_months": 0,
+      "history_integrity": {
+        "appears_intact": false,
+        "has_merge_commits": false,
+        "force_push_risk": false,
+        "single_bulk_commit": false,
+        "notes": []
+      },
+      "all_contributors": [],
+      "all_contributors_count": 0,
+      "source": "git"
+    },
+    "loc": {
+      "value": 3335,
+      "breakdown": {
+        "code": 3335,
+        "comment": 259,
+        "blank": 585,
+        "nFiles": 1
+      },
+      "source": "cloc"
+    },
+    "languages": {
+      "total_count": 1,
+      "core_count": 1,
+      "core_list": [
+        "Python"
+      ],
+      "list": [
+        "Python"
+      ],
+      "breakdown": {
+        "Python": {
+          "loc": 3335,
+          "files": 1,
+          "pct": 100.0
+        }
+      },
+      "source": "cloc"
+    }
+  },
+  "tool_metrics": {
+    "tokens": {
+      "llm": 40470,
+      "lexical": 38964
+    },
+    "duplication": {
+      "token_weighted": 0.0,
+      "duplicate_tokens": 0,
+      "exact_duplicate_files": 0,
+      "similar_clusters": []
+    },
+    "compliance": {
+      "is_open_source": false,
+      "license_file": null,
+      "license_type": null,
+      "has_readme": true
+    },
+    "code_age": {
+      "available": false,
+      "sampled_files": 0,
+      "pct_untouched_1yr": 0.0,
+      "pct_untouched_2yr": 0.0,
+      "age_distribution": {}
+    },
+    "secrets": {
+      "files_scanned": 1,
+      "findings_count": 0,
+      "findings": [],
+      "clean": true,
+      "risk_level": "low"
+    }
+  },
+  "heuristics": {
+    "signals": {
+      "hasSource": true,
+      "hasTests": false,
+      "hasConfig": false,
+      "hasCI": false
+    },
+    "structure": {
+      "dirs": 0,
+      "files": 1,
+      "extensions": {
+        ".py": 1
+      },
+      "test_file_count": 0
+    },
+    "ai_detection": {
+      "repo_score": 0.1,
+      "confidence": "low",
+      "signals": {
+        "uniformity": 0.0,
+        "duplication": 0.0,
+        "similarity": 0.0,
+        "cluster_density": 0.0,
+        "naming": 1.0,
+        "smoothness": 0.0
+      },
+      "per_file_scores": {
+        "C:\\Users\\OmoloB\\Documents\\OBR\\Data Test\\Repo_analysis_tool.py": 0.6
+      }
+    },
+    "frameworks": {},
+    "runtime": [],
+    "infrastructure": {
+      "databases": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "deployment": [],
+      "apis": []
+    },
+    "byte_breakdown": {
+      "Markdown": 11390,
+      "Python": 166104
+    },
+    "docs": {
+      "description": "A high-performance, multi-stage static analysis pipeline designed to transform raw codebases into actionable intelligence. This tool performs deep analysis on Git metadata, code metrics, architectural...",
+      "has_setup": true,
+      "doc_quality": "High",
+      "env_vars": "Mapped (.env file present)"
+    },
+    "testing": {
+      "coverage": "N/A",
+      "case_count": 0
+    },
+    "complexity": "High",
+    "repo_rating": {
+      "rating": 1.17,
+      "label": "Poor",
+      "component_scores": {
+        "commits": 0.0,
+        "dev_span_months": 0.0,
+        "contributors": 0.0,
+        "loc": 0.3335,
+        "has_tests": 0.0,
+        "has_ci": 0.0,
+        "test_file_count": 0.0,
+        "source_file_ratio": 1.0
+      },
+      "meets_minimum": false
+    }
+  },
+  "performance": {
+    "stage0_seconds": 0.0,
+    "stage2_seconds": 0.25,
+    "stage4_seconds": 0.32,
+    "stage5_seconds": 0.02,
+    "total_seconds": 13.86
+  },
+  "github_prs": {
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": false
+  },
+  "full_report_snapshot": {
+    "repo_name": "Data Test",
+    "is_git": false,
+    "license_type": null,
+    "first_commit_date": null,
+    "last_commit_date": null,
+    "loc_code": 3335,
+    "loc_comment": 259,
+    "loc_blank": 585,
+    "loc_files": 1,
+    "lang_count": 1,
+    "languages": "Python",
+    "languages_frontend": "",
+    "languages_backend": "Python",
+    "commits": 0,
+    "contributors": 0,
+    "all_contributors_count": 0,
+    "all_contributors": "",
+    "branch_count": 0,
+    "meaningful_commit_count": 0,
+    "development_span_months": 0,
+    "commits_per_month": "0 commits/mo",
+    "git_history_intact": false,
+    "tokens_llm": 40470,
+    "lexical_token": 38964,
+    "duplication_weighted_percent": "0.0%",
+    "code_complexity": "High",
+    "ai_detection_percent": "10.0%",
+    "frameworks": "",
+    "framework_frontend": "",
+    "framework_backend": "",
+    "databases_used": "MongoDB | MySQL | PostgreSQL | Redis",
+    "third_party_apis": "",
+    "setup_guidelines": "Present",
+    "security_findings": "Clean",
+    "documentation_quality": "High",
+    "repo_rating_score": 1.17,
+    "repo_rating_label": "Poor",
+    "languages_percentage_bytes(>5%)": "Python (100.0%)",
+    "frameworks_percentage_bytes(>5%)": "None Detected",
+    "total_time_seconds": 13.86,
+    "total_pr_count": 0,
+    "open_pr_count": 0,
+    "closed_pr_count": 0,
+    "merged_pr_count": 0,
+    "github_pr_analysis_available": false,
+    "deployment_env": "",
+    "environment_variables": "Mapped (.env file present)",
+    "stars": "N/A",
+    "forks": "N/A",
+    "watchers": "N/A",
+    "open_issues": "N/A",
+    "creation_date": "N/A",
+    "loc_verified": 3335,
+    "tokenizer_method": "N/A"
+  }
+}
